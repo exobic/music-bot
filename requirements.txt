@@ -1,5 +1,5 @@
-pyrogram
-tgcrypto
-pytgcalls
-yt-dlp
-ffmpeg-python
+pyrogram==1.4.16
+tgcrypto==1.2.5
+python-ffmpeg==1.0.14
+git+https://github.com/pytgcalls/pytgcalls.git
+git+https://github.com/yt-dlp/yt-dlp.git
