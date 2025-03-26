@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: telegram-youtube-player
+    runtime: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "bash start.sh"
+    envVars:
+      - key: API_ID
+        value: "14891410"
+      - key: API_HASH
+        value: "1713deecfb7137884f8f866985cbb5fd"
+      - key: BOT_TOKEN
+        value: "7567490767:AAFj_Ofm9Nz0_LOEDZj1hBkzkZc_820kBq0"
