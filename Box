@@ -24,7 +24,7 @@ bot.onText(/\/play (.+)/, async (msg, match) => {
     const stream = ytdl(songUrl, { filter: 'audioonly' });
 
     // Use FFmpeg to convert the audio stream
-    const ffmpegCommand = `${ffmpegPath} -i pipe:0 -f opus -b:a 128k -ar 48000 -ac 2 pipe:1`;
+    const ffmpegCommand = `"${ffmpegPath}" -i pipe:0 -f opus -b:a 128k -ar 48000 -ac 2 pipe:1`;
     const ffmpegProcess = exec(ffmpegCommand);
 
     // Pipe the YouTube audio stream to FFmpeg
