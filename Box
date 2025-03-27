@@ -1,0 +1,48 @@
+const TelegramBot = require('node-telegram-bot-api');
+const ytdl = require('ytdl-core');
+const { exec } = require('child_process');
+const ffmpegPath = require('ffmpeg-static');
+
+const token = 'YOUR_TELEGRAM_BOT_TOKEN'; // Replace with your bot token
+const bot = new TelegramBot(token, { polling: true });
+
+// Command to play music in group voice chat
+bot.onText(/\/play (.+)/, async (msg, match) => {
+    const chatId = msg.chat.id;
+    const songUrl = match[1];
+
+    // Check if the chat is a group
+    const chat = await bot.getChat(chatId);
+    if (chat.type !== 'group' && chat.type !== 'supergroup') {
+        return bot.sendMessage(chatId, 'This command can only be used in groups.');
+    }
+
+    // Join the voice chat
+    bot.sendMessage(chatId, `Joining voice chat to play: ${songUrl}`);
+
+    // Stream the audio
+    const stream = ytdl(songUrl, { filter: 'audioonly' });
+
+    // Use FFmpeg to convert the audio stream
+    const ffmpegCommand = `${ffmpegPath} -i pipe:0 -f opus -b:a 128k -ar 48000 -ac 2 pipe:1`;
+    const ffmpegProcess = exec(ffmpegCommand);
+
+    // Pipe the YouTube audio stream to FFmpeg
+    stream.pipe(ffmpegProcess.stdin);
+
+    // Here you would need to send the audio data to the group voice chat
+    ffmpegProcess.stdout.on('data', (data) => {
+        // Send the audio data to the voice chat
+        // This part requires additional implementation
+    });
+
+    ffmpegProcess.stderr.on('data', (data) => {
+        console.error(`FFmpeg error: ${data}`);
+    });
+
+    ffmpegProcess.on('close', (code) => {
+        console.log(`FFmpeg process exited with code ${code}`);
+    });
+});
+
+console.log('Bot is running...');
