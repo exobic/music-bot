@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Discover the top 8 AI tools to make $50 per day with Tech Wealth Hub - proven strategies for online income generation" />
+  <meta name="keywords" content="AI tools, make money online, passive income, AI earnings, side hustle, online income" />
+  <meta name="author" content="Tech Wealth Hub" />
+  <title>Top 8 AI Tools to Make $50/Day | Tech Wealth Hub</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    :root {
+      --primary: #6d28d9;
+      --secondary: #4f46e5;
+      --accent: #8b5cf6;
+    }
+    
+    html { 
+      scroll-behavior: smooth; 
+      font-family: 'Inter', sans-serif;
+    }
+    
+    /* Animation classes */
+    .fade-in {
+      opacity: 0;
+      transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    }
+    
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    
+    .slide-up {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    }
+    
+    .slide-up.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    
+    /* Gradient backgrounds */
+    .gradient-bg {
+      background: linear-gradient(135deg, #6b46c1 0%, #4c51bf 50%, #4338ca 100%);
+    }
+    
+    .gradient-text {
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      background-image: linear-gradient(90deg, #7c3aed, #4338ca);
+    }
+    
+    /* Content area styling */
+    .content-area {
+      font-family: 'Merriweather', serif;
+      line-height: 1.8;
+      color: #374151;
+    }
+    
+    .content-area h2 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      margin-top: 2.5rem;
+      margin-bottom: 1.25rem;
+      color: #111827;
+    }
+    
+    .content-area h3 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      color: #1f2937;
+    }
+    
+    .content-area p {
+      margin-bottom: 1.5rem;
+    }
+    
+    .content-area ul, 
+    .content-area ol {
+      margin-bottom: 1.5rem;
+      padding-left: 1.5rem;
+    }
+    
+    .content-area li {
+      margin-bottom: 0.5rem;
+    }
+    
+    .content-area blockquote {
+      border-left: 4px solid #8b5cf6;
+      padding-left: 1.5rem;
+      margin: 1.5rem 0;
+      color: #4b5563;
+      font-style: italic;
+      background-color: #f9fafb;
+      padding: 1rem;
+      border-radius: 0 8px 8px 0;
+    }
+    
+    .tool-card {
+      transition: all 0.3s ease;
+      border-left: 4px solid #8b5cf6;
+    }
+    
+    .tool-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Button hover effect */
+    .btn-hover {
+      transition: all 0.3s ease;
+    }
+    
+    .btn-hover:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Sidebar animation */
+    .sidebar-item {
+      transition: all 0.4s ease;
+      transform: translateX(0);
+    }
+    
+    .sidebar-item:hover {
+      transform: translateX(5px);
+    }
+    
+    /* Author box */
+    .author-box {
+      transition: all 0.3s ease;
+    }
+    
+    .author-box:hover {
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+      transform: translateY(-3px);
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      .hero-title {
+        font-size: 2rem;
+      }
+      .hero-subtitle {
+        font-size: 1.1rem;
+      }
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased">
+  <!-- Mobile sidebar toggle -->
+  <div class="fixed top-4 left-4 z-50 md:hidden">
+    <div class="hamburger p-2 bg-white rounded-full shadow-lg">
+      <i class="fas fa-bars text-indigo-600 text-xl"></i>
+    </div>
+  </div>
+
+  <!-- Sidebar -->
+  <aside class="sidebar fixed top-0 left-0 h-full w-64 bg-white shadow-xl z-40 py-8 px-6 hidden md:block">
+    <div class="flex items-center mb-10">
+      <div class="w-10 h-10 rounded-full bg-gradient-to-r from-purple-500 to-indigo-600 flex items-center justify-center text-white font-bold text-lg">T</div>
+      <h2 class="text-xl font-bold ml-3"><span class="gradient-text">Tech Wealth Hub</span></h2>
+    </div>
+    
+    <nav class="mb-10">
+      <h3 class="text-sm uppercase font-semibold text-gray-500 mb-4">Navigation</h3>
+      <ul class="space-y-2">
+        <li><a href="#" class="flex items-center gap-3 p-2 rounded-lg hover:bg-indigo-50 text-indigo-600 font-medium">
+          <i class="fas fa-home"></i> Home
+        </a></li>
+        <li><a href="#" class="flex items-center gap-3 p-2 rounded-lg hover:bg-indigo-50 text-gray-700">
+          <i class="fas fa-fire"></i> Trending
+        </a></li>
+        <li><a href="#" class="flex items-center gap-3 p-2 rounded-lg hover:bg-indigo-50 text-gray-700">
+          <i class="fas fa-robot"></i> AI Tools
+        </a></li>
+        <li><a href="#" class="flex items-center gap-3 p-2 rounded-lg hover:bg-indigo-50 text-gray-700">
+          <i class="fab fa-bitcoin"></i> Crypto
+        </a></li>
+        <li><a href="#" class="flex items-center gap-3 p-2 rounded-lg hover:bg-indigo-50 text-gray-700">
+          <i class="fas fa-wallet"></i> Passive Income
+        </a></li>
+      </ul>
+    </nav>
+    
+    <div class="mb-10">
+      <h3 class="text-sm uppercase font-semibold text-gray-500 mb-4">Popular Tags</h3>
+      <div class="flex flex-wrap gap-2">
+        <span class="bg-indigo-100 text-indigo-800 text-xs font-medium px-3 py-1 rounded-full">ChatGPT</span>
+        <span class="bg-purple-100 text-purple-800 text-xs font-medium px-3 py-1 rounded-full">Crypto Staking</span>
+        <span class="bg-blue-100 text-blue-800 text-xs font-medium px-3 py-1 rounded-full">Affiliate</span>
+        <span class="bg-green-100 text-green-800 text-xs font-medium px-3 py-1 rounded-full">Passive Income</span>
+        <span class="bg-yellow-100 text-yellow-800 text-xs font-medium px-3 py-1 rounded-full">NFT</span>
+      </div>
+    </div>
+    
+    <div class="p-5 rounded-xl bg-gradient-to-br from-indigo-50 to-purple-50 shadow-sm">
+      <h4 class="font-semibold mb-3">Free Ebook</h4>
+      <p class="text-sm text-gray-600 mb-4">Download our guide to making $100/day with AI tools</p>
+      <button class="w-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-2 rounded-lg font-medium btn-hover">
+        Download Now
+      </button>
+    </div>
+  </aside>
+
+  <!-- Main Content -->
+  <div class="md:ml-64">
+    <!-- Header -->
+    <header class="p-4 shadow-sm bg-white sticky top-0 z-30">
+      <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+        <div class="flex items-center">
+          <h1 class="text-2xl font-bold text-gray-900">
+            <span class="gradient-text">Tech Wealth Hub</span>
+          </h1>
+        </div>
+        
+        <div class="relative w-full md:w-auto">
+          <form role="search" aria-label="Site search" class="flex items-center gap-2">
+            <input 
+              type="search" 
+              placeholder="Search articles..." 
+              aria-label="Search through site content"
+              class="border border-gray-200 rounded-lg px-4 py-2 w-full focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent shadow-sm" 
+            />
+            <button 
+              type="submit" 
+              aria-label="Submit search"
+              class="p-2 bg-gradient-to-r from-indigo-500 to-purple-600 text-white rounded-lg hover:opacity-90 transition-opacity btn-hover shadow-md"
+            >
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </header>
+
+    <!-- Article Hero -->
+    <section class="gradient-bg text-white py-16 px-4">
+      <div class="max-w-4xl mx-auto text-center">
+        <div class="mb-4">
+          <span class="bg-white text-indigo-600 text-sm font-medium px-3 py-1 rounded-full">AI TOOLS</span>
+        </div>
+        <h1 class="text-3xl md:text-4xl font-bold mb-4 slide-up">Top 8 AI Tools to Make $50/Day (2025 Guide)</h1>
+        <p class="text-lg mb-6 max-w-2xl mx-auto slide-up" style="transition-delay: 0.1s">Discover how to leverage AI technology to create consistent daily income streams</p>
+        <div class="flex items-center justify-center gap-4 text-sm slide-up" style="transition-delay: 0.2s">
+          <div class="flex items-center">
+            <div class="w-8 h-8 rounded-full bg-indigo-100 flex items-center justify-center mr-2">
+              <i class="fas fa-user text-indigo-600"></i>
+            </div>
+            <span>Alex Johnson</span>
+          </div>
+          <span>•</span>
+          <span>August 15, 2025</span>
+          <span>•</span>
+          <span>8 min read</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 py-12">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <!-- Article Content -->
+        <div class="lg:col-span-2">
+          <div class="bg-white rounded-xl shadow-md overflow-hidden content-area fade-in">
+            <div class="p-6 md:p-8">
+              <div class="flex items-center justify-between mb-6 text-sm text-gray-500">
+                <div>
+                  <i class="fas fa-eye mr-1"></i> 24,843 views
+                </div>
+                <div>
+                  <i class="fas fa-share-alt mr-1"></i> Share
+                </div>
+              </div>
+              
+              <img src="https://images.unsplash.com/photo-1677442135722-5f1d4d8a3f0d?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&w=900" alt="AI Tools for Making Money" class="w-full h-64 object-cover rounded-lg mb-8">
+              
+              <p class="text-lg mb-6">In today's digital economy, artificial intelligence has opened up unprecedented opportunities for generating income. With the right tools and strategies, it's now possible to make $50 or more per day using AI-powered platforms. In this comprehensive guide, we'll explore the top 8 AI tools that can help you achieve this financial goal.</p>
+              
+              <h2>Why AI Tools Are Perfect for Generating Daily Income</h2>
+              
+              <p>AI tools have revolutionized how we approach online income generation. Here's why they're so effective:</p>
+              
+              <ul>
+                <li><strong>Automation capabilities</strong> - Complete tasks while you sleep</li>
+                <li><strong>Scalability</strong> - Grow your income without linear time investment</li>
+                <li><strong>Accessibility</strong> - No advanced technical skills required</li>
+                <li><strong>Diverse applications</strong> - Multiple ways to monetize each tool</li>
+              </ul>
+              
+              <blockquote>
+                "The best time to start leveraging AI for income was yesterday. The second best time is today."
+              </blockquote>
+              
+              <h2>The Top 8 AI Tools to Make $50/Day</h2>
+              
+              <p>After testing dozens of platforms, these are the top performers for generating consistent daily income:</p>
+              
+              <!-- Tool 1 -->
+              <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 tool-card mb-6 slide-up">
+                <div class="flex items-start mb-4">
+                  <div class="text-2xl font-bold text-indigo-600 mr-4">1</div>
+                  <div>
+                    <h3 class="text-xl font-bold">ContentForge Pro</h3>
+                    <p class="text-gray-600">AI-powered content creation platform</p>
+                  </div>
+                </div>
+                <p><strong>How to earn:</strong> Create SEO-optimized blog posts and articles for clients. Average earnings: $25-50 per article.</p>
+                <p><strong>Key features:</strong> SEO optimization, plagiarism checker, content scheduling</p>
+                <div class="mt-4">
+                  <a href="#" class="text-indigo-600 font-medium">Learn More →</a>
+                </div>
+              </div>
+              
+              <!-- Tool 2 -->
+              <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 tool-card mb-6 slide-up" style="transition-delay: 0.1s">
+                <div class="flex items-start mb-4">
+                  <div class="text-2xl font-bold text-indigo-600 mr-4">2</div>
+                  <div>
+                    <h3 class="text-xl font-bold">DesignMind AI</h3>
+                    <p class="text-gray-600">Graphic design automation tool</p>
+                  </div>
+                </div>
+                <p><strong>How to earn:</strong> Create social media graphics, logos, and marketing materials. Average earnings: $15-40 per design.</p>
+                <p><strong>Key features:</strong> Template library, brand kit, one-click resizing</p>
+                <div class="mt-4">
+                  <a href="#" class="text-indigo-600 font-medium">Learn More →</a>
+                </div>
+              </div>
+              
+              <!-- Tool 3 -->
+              <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 tool-card mb-6 slide-up" style="transition-delay: 0.2s">
+                <div class="flex items-start mb-4">
+                  <div class="text-2xl font-bold text-indigo-600 mr-4">3</div>
+                  <div>
+                    <h3 class="text-xl font-bold">VideoCraft Studio</h3>
+                    <p class="text-gray-600">AI video creation platform</p>
+                  </div>
+                </div>
+                <p><strong>How to earn:</strong> Create short promotional videos for businesses. Average earnings: $30-60 per video.</p>
+                <p><strong>Key features:</strong> Auto-editing, voice synthesis, stock footage library</p>
+                <div class="mt-4">
+                  <a href="#" class="text-indigo-600 font-medium">Learn More →</a>
+                </div>
+              </div>
+              
+              <p class="slide-up" style="transition-delay: 0.3s">* Tools 4-8 are available to premium members. <a href="#" class="text-indigo-600">Upgrade your account</a> to access the full list and detailed earning strategies.</p>
+              
+              <h2 class="slide-up" style="transition-delay: 0.4s">Getting Started: Your First $50 Day</h2>
+              
+              <p class="slide-up" style="transition-delay: 0.5s">Follow this proven 3-step process to earn your first $50 with AI tools:</p>
+              
+              <ol class="slide-up" style="transition-delay: 0.6s">
+                <li><strong>Choose your primary tool</strong> - Focus on one platform to start</li>
+                <li><strong>Create a portfolio</strong> - Develop 3-5 sample pieces showcasing your skills</li>
+                <li><strong>Find clients</strong> - Use platforms like Upwork, Fiverr, or direct outreach</li>
+              </ol>
+              
+              <div class="bg-gradient-to-r from-indigo-50 to-purple-50 p-6 rounded-xl mt-8 slide-up" style="transition-delay: 0.7s">
+                <h3 class="text-xl font-bold mb-3">Pro Tip</h3>
+                <p>Combine multiple AI tools to create service packages. For example: Content + graphics + video = comprehensive social media management starting at $300/month.</p>
+              </div>
+            </div>
+            
+            <!-- Author Box -->
+            <div class="border-t border-gray-100 p-6 md:p-8 author-box">
+              <div class="flex items-center">
+                <div class="w-16 h-16 rounded-full bg-gradient-to-r from-purple-500 to-indigo-600 flex items-center justify-center text-white font-bold text-xl mr-4">AJ</div>
+                <div>
+                  <h4 class="font-bold text-lg">Alex Johnson</h4>
+                  <p class="text-gray-600">AI Income Specialist at Tech Wealth Hub</p>
+                  <div class="flex mt-2">
+                    <a href="#" class="text-gray-500 hover:text-indigo-600 mr-3">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="text-gray-500 hover:text-indigo-600 mr-3">
+                      <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="text-gray-500 hover:text-indigo-600">
+                      <i class="fas fa-globe"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <p class="mt-4 text-gray-700">Alex has helped over 2,000 people build AI-powered income streams. His strategies have been featured in Forbes, Entrepreneur, and TechCrunch.</p>
+            </div>
+          </div>
+          
+          <!-- Comments Section -->
+          <div class="bg-white rounded-xl shadow-md p-6 mt-8 fade-in">
+            <h3 class="text-xl font-bold mb-4">Comments (24)</h3>
+            
+            <div class="mb-6">
+              <div class="flex items-start mb-4">
+                <div class="w-10 h-10 rounded-full bg-indigo-100 flex items-center justify-center mr-3">
+                  <i class="fas fa-user text-indigo-600"></i>
+                </div>
+                <div>
+                  <h4 class="font-bold">Michael T.</h4>
+                  <p class="text-gray-500 text-sm">2 hours ago</p>
+                  <p class="mt-2">Started using ContentForge last week and already made $120! Thanks for the recommendation.</p>
+                </div>
+              </div>
+              
+              <div class="flex items-start mb-4">
+                <div class="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center mr-3">
+                  <i class="fas fa-user text-purple-600"></i>
+                </div>
+                <div>
+                  <h4 class="font-bold">Sarah K.</h4>
+                  <p class="text-gray-500 text-sm">5 hours ago</p>
+                  <p class="mt-2">Which tool would you recommend for someone with no design experience?</p>
+                </div>
+              </div>
+            </div>
+            
+            <form>
+              <textarea class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent mb-3" rows="3" placeholder="Add your comment..."></textarea>
+              <button class="bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-2 px-6 rounded-lg font-medium btn-hover">
+                Post Comment
+              </button>
+            </form>
+          </div>
+        </div>
+        
+        <!-- Sidebar -->
+        <div class="lg:col-span-1">
+          <div class="bg-white rounded-xl shadow-md p-6 sticky top-24">
+            <h3 class="text-xl font-bold mb-4">Latest Posts</h3>
+            
+            <div class="space-y-5">
+              <!-- Post 1 -->
+              <a href="#" class="sidebar-item flex items-start gap-3 group">
+                <div class="w-16 h-16 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-lg flex items-center justify-center text-white text-lg font-bold">
+                  1
+                </div>
+                <div>
+                  <h4 class="font-bold group-hover:text-indigo-600 transition-colors">Crypto Staking: Earn $20/Day Passively</h4>
+                  <p class="text-sm text-gray-500 mt-1">August 12, 2025</p>
+                </div>
+              </a>
+              
+              <!-- Post 2 -->
+              <a href="#" class="sidebar-item flex items-start gap-3 group">
+                <div class="w-16 h-16 bg-gradient-to-r from-blue-500 to-cyan-600 rounded-lg flex items-center justify-center text-white text-lg font-bold">
+                  2
+                </div>
+                <div>
+                  <h4 class="font-bold group-hover:text-indigo-600 transition-colors">Affiliate Marketing with AI: $100/Day System</h4>
+                  <p class="text-sm text-gray-500 mt-1">August 8, 2025</p>
+                </div>
+              </a>
+              
+              <!-- Post 3 -->
+              <a href="#" class="sidebar-item flex items-start gap-3 group">
+                <div class="w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-600 rounded-lg flex items-center justify-center text-white text-lg font-bold">
+                  3
+                </div>
+                <div>
+                  <h4 class="font-bold group-hover:text-indigo-600 transition-colors">5 ChatGPT Prompts That Made Me $500</h4>
+                  <p class="text-sm text-gray-500 mt-1">August 5, 2025</p>
+                </div>
+              </a>
+              
+              <!-- Post 4 -->
+              <a href="#" class="sidebar-item flex items-start gap-3 group">
+                <div class="w-16 h-16 bg-gradient-to-r from-yellow-500 to-amber-600 rounded-lg flex items-center justify-center text-white text-lg font-bold">
+                  4
+                </div>
+                <div>
+                  <h4 class="font-bold group-hover:text-indigo-600 transition-colors">Automated Print-on-Demand with AI</h4>
+                  <p class="text-sm text-gray-500 mt-1">August 1, 2025</p>
+                </div>
+              </a>
+            </div>
+            
+            <div class="mt-8 p-5 rounded-xl bg-gradient-to-br from-indigo-50 to-purple-50">
+              <h4 class="font-semibold mb-3">Get Our Income Strategies</h4>
+              <p class="text-sm text-gray-600 mb-4">Join 25,000+ subscribers getting money-making tips weekly</p>
+              <form class="space-y-3">
+                <input 
+                  type="email" 
+                  placeholder="Your email address" 
+                  class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent" 
+                />
+                <button 
+                  class="w-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-2 rounded-lg font-medium btn-hover"
+                >
+                  Subscribe
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="mt-16 bg-gradient-to-b from-gray-900 to-black text-white pt-16 pb-8 px-4">
+      <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div>
+          <h5 class="text-2xl font-bold mb-4 gradient-text">Tech Wealth Hub</h5>
+          <p class="text-gray-400 mb-4">Helping you build wealth through technology since 2022.</p>
+          <div class="flex gap-4">
+            <a href="#" class="footer-item w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-indigo-600">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="footer-item w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-indigo-600">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="footer-item w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-indigo-600">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="footer-item w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-indigo-600">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div>
+          <h6 class="text-lg font-semibold mb-4">Resources</h6>
+          <ul class="space-y-3">
+            <li><a href="#" class="footer-item text-gray-400 hover:text-white transition-colors">AI Tools Directory</a></li>
+            <li><a href="#" class="footer-item text-gray-400 hover:text-white transition-colors">Crypto Investment Guide</a></li>
+            <li><a href="#" class="footer-item text-gray-400 hover:text-white transition-colors">Passive Income Blueprint</a></li>
+            <li><a href="#" class="footer-item text-gray-400 hover:text-white transition-colors">Affiliate Marketing Handbook</a></li>
+            <li><a href="#" class="footer-item text-gray-400 hover:text-white transition-colors">Free Ebooks</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h6 class="text-lg font-semibold mb-4">Company</h6>
+          <ul class="space-y-3">
+            <li><a href="#" class="footer-item text-gray-400 hover:text-white transition-colors">About Us</a></li>
+            <li><a href="#" class="footer-item text-gray-400 hover:text-white transition-colors">Contact</a></li>
+            <li><a href="#" class="footer-item text-gray-400 hover:text-white transition-colors">Careers</a></li>
+            <li><a href="#" class="footer-item text-gray-400 hover:text-white transition-colors">Press</a></li>
+            <li><a href="#" class="footer-item text-gray-400 hover:text-white transition-colors">Partnerships</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h6 class="text-lg font-semibold mb-4">Legal</h6>
+          <ul class="space-y-3">
+            <li><a href="#" class="footer-item text-gray-400 hover:text-white transition-colors">Privacy Policy</a></li>
+            <li><a href="#" class="footer-item text-gray-400 hover:text-white transition-colors">Terms of Service</a></li>
+            <li><a href="#" class="footer-item text-gray-400 hover:text-white transition-colors">Disclaimer</a></li>
+            <li><a href="#" class="footer-item text-gray-400 hover:text-white transition-colors">Affiliate Disclosure</a></li>
+            <li><a href="#" class="footer-item text-gray-400 hover:text-white transition-colors">Cookie Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="max-w-7xl mx-auto pt-8 mt-8 border-t border-gray-800 text-center text-gray-500 text-sm">
+        <p>© 2025 Tech Wealth Hub. All rights reserved.</p>
+        <p class="mt-2">The content on this site is for informational purposes only. We are not financial advisors.</p>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    // Toggle mobile sidebar
+    document.querySelector('.hamburger')?.addEventListener('click', function() {
+      const sidebar = document.querySelector('.sidebar');
+      sidebar.classList.toggle('hidden');
+    });
+    
+    // Scroll animation functionality
+    const animateOnScroll = () => {
+      const elements = document.querySelectorAll('.fade-in, .slide-up');
+      
+      elements.forEach(element => {
+        const elementPosition = element.getBoundingClientRect().top;
+        const screenPosition = window.innerHeight / 1.2;
+        
+        if (elementPosition < screenPosition) {
+          element.classList.add('visible');
+        }
+      });
+    };
+    
+    // Initialize animations on load
+    window.addEventListener('load', () => {
+      animateOnScroll();
+      
+      // Add slight delay to sidebar items
+      setTimeout(() => {
+        document.querySelectorAll('.slide-up').forEach(el => {
+          el.classList.add('visible');
+        });
+      }, 300);
+    });
+    
+    // Animate on scroll
+    window.addEventListener('scroll', animateOnScroll);
+    
+    // Footer item animation
+    const footerItems = document.querySelectorAll('.footer-item');
+    footerItems.forEach(item => {
+      item.addEventListener('mouseenter', function() {
+        this.style.transform = 'translateY(-3px)';
+      });
+      
+      item.addEventListener('mouseleave', function() {
+        this.style.transform = 'translateY(0)';
+      });
+    });
+  </script>
+</body>
+</html>
